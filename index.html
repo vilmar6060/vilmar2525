@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vilmar Pereira - Portfólio</title>
+    
+    <!-- Importando a fonte profissional 'Poppins' do Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Um único link para o seu arquivo de estilo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero">
+        <div class="container">
+            <img src="vetor/foto.png" class="profile-photo" alt="Foto de Vilmar Pereira">
+            <div class="header-content">
+                <h1>Vilmar da Silva Pereira</h1>
+                <p class="subtitle">Desenvolvedor e entusiasta de tecnologia</p>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Seção "Sobre Mim" -->
+        <section id="sobre" class="card">
+            <h2>Sobre Mim</h2>
+            <p>Olá! Sou um profissional dedicado com formação em Técnico em Informática. Atualmente, estou explorando o desenvolvimento web e a criação de soluções inteligentes. Meu objetivo é continuar aprendendo e aplicando novas tecnologias para resolver problemas práticos.</p>
+        </section>
+
+        <!-- Seção de Cursos -->
+        <section id="cursos" class="card">
+            <h2>Qualificações</h2>
+            <ul class="qualifications-list">
+                <li>Técnico em Informática</li>
+                <li>Assistente de Logística</li>
+                <li>Assistente de qualidade</li>
+                <!-- Adicione mais qualificações aqui se desejar -->
+            </ul>
+        </section>
+        
+        <!-- Seção de Contato -->
+        <section id="contato" class="card">
+            <h2>Contato</h2>
+            <p>Vamos conversar! Você pode me encontrar aqui:</p>
+            <div class="contact-links">
+                <a href="tel:+5571981363279" class="contact-link">
+                    <!-- Ícone de Telefone (SVG) -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M222.34,158.82l-48-24A8,8,0,0,0,164,137.51l-16.24,32.48a8,8,0,0,1-7.58,5.13A40,40,0,0,1,104,144a104.11,104.11,0,0,1-41.11-41.11A40,40,0,0,1,96,66.67a8,8,0,0,1,5.13-7.58L133.61,42.85a8,8,0,0,0,2.69-10.34l-24-48A8,8,0,0,0,104,0,80.09,80.09,0,0,0,24,80c0,88.22,71.78,160,160,160a80.09,80.09,0,0,0,80-80A8,8,0,0,0,222.34,158.82Z"></path></svg>
+                    (71) 98136-3279
+                </a>
+                <a href="https://www.linkedin.com/in/vilmar-pereira-286530260" class="contact-link" target="_blank" rel="noopener noreferrer">
+                    <!-- Ícone do LinkedIn (SVG) -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a12,12,0,0,0-24,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0v4.22A36,36,0,0,1,180,104c16,0,28,14.33,28,32A20,20,0,0,1,184,140ZM116,84a12,12,0,1,1-12-12A12,12,0,0,1,116,84Z"></path></svg>
+                    LinkedIn
+                </a>
+                <a href="mailto:vilmarspereira@gmail.com" class="contact-link">
+                    <!-- Ícone de E-mail (SVG) -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 256 256"><path d="M224,48H32a8,8,0,0,0-8,8V192a8,8,0,0,0,8,8H224a8,8,0,0,0,8-8V56A8,8,0,0,0,224,48Zm-8,135.43L165.23,138.8a8,8,0,0,0-10.46,0L128,160,101.23,138.8a8,8,0,0,0-10.46,0L40,183.43V64H216Z"></path></svg>
+                    vilmarspereira@gmail.com
+                </a>
+                <!-- Adicione outros links/ícones (LinkedIn, GitHub, etc.) aqui -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            &copy; 2025 Vilmar Pereira - Criado com 💙
+        </div>
+    </footer>
+
+    <!-- ======================================== -->
+    <!-- COMPONENTE DO CHAT FLUTUANTE           -->
+    <!-- ======================================== -->
+    <div class="chat-bubble" id="chat-bubble">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="white" viewBox="0 0 256 256"><path d="M216,48H40a16,16,0,0,0-16,16V176a16,16,0,0,0,16,16h40v32a8,8,0,0,0,13.66,5.66L128,192h88a16,16,0,0,0,16-16V64A16,16,0,0,0,216,48Z"></path></svg>
+    </div>
+
+    <div class="chat-container hidden" id="chat-container">
+        <!-- O conteúdo do chat permanece o mesmo -->
+        <div class="chat-header">
+            <div class="header-info">
+                <img src="https://cdn-icons-png.flaticon.com/512/6386/6386976.png" alt="Bot" class="bot-avatar">
+                <div><h2>Chat IA</h2><p>online agora</p></div>
+            </div>
+            <button class="close-chat-btn" id="close-chat-btn">&times;</button>
+        </div>
+        <div id="chat-box" class="chat-box">
+            <div class="message bot"><div class="message-content">Olá 👋, sou sua IA! Como posso te ajudar hoje?</div></div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Digite uma mensagem..." autocomplete="off">
+            <button id="send-btn">Enviar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
